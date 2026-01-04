@@ -4,7 +4,7 @@ Ein einfaches Bash-Skript zum Herunterladen von Moodle Videos gehostet von cloud
 
 ## Voraussetzungen
 
-- **ffmpeg** muss installiert sein
+- **ffmpeg** muss installiert sein.
 - Installation auf macOS: `brew install ffmpeg`
 - Installation auf Windows: `pip install ffmpeg`
 - Installation auf Linux: `sudo apt install ffmpeg` 
@@ -18,7 +18,7 @@ chmod +x DownloadMoodleVideos.sh
 
 ## Verwendung
 
-1. Auf die Video-Seite auf Moofle gehen.
+1. Auf die Video-Seite auf Moodle gehen.
 2. DevTools öffnen und auf Network Tab.
 3. Jetzt erst auf Video starten klicken.
 4. In DevTools kommen mehrere Elemente, auf master.m3u8 klicken und die Request-Url kopieren. Dies ist die video_url.
